@@ -1,0 +1,28 @@
+style = "yas"
+
+# High-level formatting options
+join_lines_based_on_source = true
+indent = 2
+margin = 80
+normalize_line_endings = "unix"
+remove_extra_newlines = true
+
+# Explicitly allowed source transofmations
+always_for_in = true
+separate_kwargs_with_semicolon = true
+short_to_long_function_def = true
+conditional_to_if = true
+
+# Explicitly disabled source transformations
+pipe_to_function_call = false
+annotate_untyped_fields_with_any = false
+always_use_return = false
+
+# Whitespace source transformations
+whitespace_typedefs = true
+whitespace_ops_in_indices = true
+whitespace_in_kwargs = true
+
+format_docstrings = true
+
+align_matrix = true
